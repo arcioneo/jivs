@@ -32,12 +32,12 @@ return(
 				<img src={location} width="100px" height="100px" alt="vena  visitarnos" />
 				 <h2>Ven a visitarnos</h2> 
 				 <span>(Avenida siempre viva #136 San juanico)</span><br/>
-				 <span><a href="https://goo.gl/maps/GDBzrd3hSG8iu4CQ9" target="_blank">Ver Mapa</a></span>
+				 <span><a href="https://goo.gl/maps/GDBzrd3hSG8iu4CQ9" target="_blank" rel="noopener noreferrer">Ver Mapa</a></span>
 			</div>
 			<div className="item">
 				<img src={facebook} width="100px" height="100px" alt="vena  visitarnos" />
 				 <h2>Síguenos en Facebook</h2> 
-				 <span><a href="https://www.facebook.com/arcioneo" target="_blank">Instaladora De panel</a></span>
+				 <span><a href="https://www.facebook.com/arcioneo" target="_blank" rel="noopener noreferrer">Instaladora De panel</a></span>
 			</div>
 		</div> 
 	</div>

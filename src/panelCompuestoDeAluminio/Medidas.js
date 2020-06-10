@@ -6,12 +6,12 @@ import medidas from '../images/medidas.jpg';
 
 export default function Medidas() {
 return(
-<div class="producto-article-left">
-	<div class="img-l-article-p">
-		<div class="overlay"></div>
+<div className="producto-article-left">
+	<div className="img-l-article-p">
+		<div className="overlay"></div>
 		<img src={medidas} width="100%" alt="medidas de placas de aluminio" />
 	</div>
-	<div class="txt-l-article-p">
+	<div className="txt-l-article-p">
 		<table>
 			<caption>Medidas (Metros)</caption>
 			<tbody>
@@ -25,7 +25,7 @@ return(
 				</tr>
 			</tbody>
 		</table>
-		<div class="btn-galery-productos">
+		<div className="btn-galery-productos">
 			<a href="#ex1"><p>Cotizar</p></a>
 		</div>
 	</div>

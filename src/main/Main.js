@@ -5,13 +5,9 @@ import './main.css'
 
 export default function Main() {
   return(
-    <div className="main-container">
-      <div className="navBar-container">
-        <CustomNavigationBar />
-      </div>
-      <div className="panelDeAluminio-container">
-        <PanelDeAluminio />
-      </div>
+    <div id="main">
+      <div id="header"><CustomNavigationBar/></div>
+      <div id="principal"><PanelDeAluminio/></div>
     </div>
   )
 }

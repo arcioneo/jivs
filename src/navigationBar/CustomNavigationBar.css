@@ -1,8 +1,7 @@
-.container {
-  position: relative;
-  top: 0%;
-  left: 0%;
-  width: 100%;
-  height: 100%;
-  border: 0px solid;
+#customNavigationBar {
+	position: relative;
+	top: 0;
+  	left: 10%;
+	width: 80%;
+	height: 100%;
 }

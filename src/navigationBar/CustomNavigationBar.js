@@ -1,14 +1,15 @@
 import React from 'react'
 import { Navbar, Nav, NavDropdown } from 'react-bootstrap'
-import './CustomNavigationBar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './customNavigationBar.css';
+import logo from '../images/logo.png';
 
 export default function CustomNavigationBar() {
 
   return(
-    <div className="container">
-      <Navbar bg="light" variant="light" expand="lg">
-        <Navbar.Brand href="#home">Grupo JIVS</Navbar.Brand>
+    <div id="customNavigationBar">
+      <Navbar bg="light" variant="light" expand="sm">
+        <Navbar.Brand href="#home"><img src={logo} width="40px" alt="" />Grupo JIVS</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

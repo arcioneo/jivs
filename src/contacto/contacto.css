@@ -1,0 +1,58 @@
+#contacto {
+	position: relative;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    font-family: Poppins;
+}
+
+.bannerInterior {
+    text-align: center;
+    color: #fff;
+    background-image: url(/llamanos.jpg);
+    background-size: cover;
+    height: 300px;
+    background-position: left center;
+    padding: 100px 0;
+}
+
+.fullBox {
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0;
+    clear: both;
+    display: block;
+}
+
+.w3-xxxlarge {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 100;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    color: white;
+    font-size: 2.667em;
+    line-height: 1.2em;
+}
+
+.listContainerA {
+  display: flex;
+}
+
+.item {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.titulo {
+    text-align: center;
+    margin: 0px;
+    display: block;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    font-size: 2.2em;
+    line-height: 1.3em;
+    color: #0276ba;
+}

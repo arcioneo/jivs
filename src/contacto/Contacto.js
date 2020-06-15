@@ -22,7 +22,7 @@ return(
 			<div className="item">
 				<img src={email} width="100px" height="100px" alt="email" />
 				 <h2>Email</h2> 
-				 <span>instaladoradepanel@hotmail.com</span>
+				 <span>sofia.jimenez@gruposejiv.com<br/>sergio.jimenez@gruposejiv.com</span>
 			</div> 
 			<div className="item">
 				<img src={telefono} width="100px" height="100px" alt="telefono" />

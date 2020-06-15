@@ -1,9 +1,6 @@
-{
+ {
   "name": "jivs",
   "version": "0.1.0",
-  "engines": {
-    "node": "12.4.0"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -16,16 +13,13 @@
     "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
     "react-items-carousel": "^2.8.0",
-    "react-scripts": "3.4.1",
-    "serve": "^11.3.2"
+    "react-scripts": "3.4.1"
   },
   "scripts": {
-    "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"

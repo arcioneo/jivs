@@ -3,8 +3,9 @@ import '../fonts/roboto.css'
 import './contacto.css';
 import email from '../images/email.jpg';
 import telefono from '../images/telefono.png';
-import location from '../images/location.png';
+import linkedin from '../images/linkedin.jpeg';
 import facebook from '../images/facebook.png';
+import whats from '../images/whats.png';
 
 export default function Contacto() {
 
@@ -26,18 +27,22 @@ return(
 			<div className="item">
 				<img src={telefono} width="100px" height="100px" alt="telefono" />
 				 <h2>Llámanos</h2> 
-				 <span>55-1951-3154<br/>55-2492-0792</span>
+				 <span>55-1951-3154<br/>55-1475-1034</span>
 			</div> 
 			<div className="item">
-				<img src={location} width="100px" height="100px" alt="vena  visitarnos" />
-				 <h2>Ven a visitarnos</h2> 
-				 <span>(Avenida siempre viva #136 San juanico)</span><br/>
-				 <span><a href="https://goo.gl/maps/GDBzrd3hSG8iu4CQ9" target="_blank" rel="noopener noreferrer">Ver Mapa</a></span>
+				<img src={whats} width="100px" height="100px" alt="whatsapp" />
+				 <h2>Escribenos</h2> 
+				 <span><a href="https://wa.me/%2B16467851869?text=Hola%20quisiera%20pedir%20informes" target="_blank" rel="noopener noreferrer">Click aqui para escribirnos</a></span>
+			</div> 
+			<div className="item">
+				<img src={facebook} width="100px" height="100px" alt="visitanos en Facebook" />
+				 <h2>Síguenos en Facebook</h2> 
+				 <span><a href="https://www.facebook.com/GRUPO-SEJIV-115170390228742/" target="_blank" rel="noopener noreferrer">Instaladora De panel</a></span>
 			</div>
 			<div className="item">
-				<img src={facebook} width="100px" height="100px" alt="vena  visitarnos" />
-				 <h2>Síguenos en Facebook</h2> 
-				 <span><a href="https://www.facebook.com/arcioneo" target="_blank" rel="noopener noreferrer">Instaladora De panel</a></span>
+				<img src={linkedin} width="100px" height="100px" alt="linkedin" />
+				<h2>Mira mi perfil</h2> 
+				 <span><a href="linkedin" target="_blank" rel="noopener noreferrer">Mi Linkedin</a></span>
 			</div>
 		</div> 
 	</div>

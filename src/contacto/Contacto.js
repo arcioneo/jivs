@@ -32,7 +32,7 @@ return(
 			<div className="item">
 				<img src={whats} width="100px" height="100px" alt="whatsapp" />
 				 <h2>Escribenos</h2> 
-				 <span><a href="https://wa.me/%2B16467851869?text=Hola%20quisiera%20pedir%20informes" target="_blank" rel="noopener noreferrer">Click aqui para escribirnos</a></span>
+				 <span><a href="https://wa.me/%2B5215514751034?text=Hola%20quisiera%20pedir%20informes" target="_blank" rel="noopener noreferrer">Click aqui para escribirnos</a></span>
 			</div> 
 			<div className="item">
 				<img src={facebook} width="100px" height="100px" alt="visitanos en Facebook" />

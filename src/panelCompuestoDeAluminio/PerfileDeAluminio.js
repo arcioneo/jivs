@@ -8,7 +8,6 @@ export default function PerfileDeAluminio() {
 AOS.init({duration: 1200,})
 return(
 <div className="item" data-aos="fade-up">
-    <h1>Perfiles de Aluminio</h1>
     <div className="txt-acri">
         <p>
             El panel compuesto de aluminio es un material que se fabrica desde hace más de 35 años alrededor del mundo, pues debido a su calidad y variedad sigue manteniendo su estatus como uno de los materiales elite en acabados arquitectónicos.

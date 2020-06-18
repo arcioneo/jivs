@@ -9,6 +9,7 @@ export default function PanelDeAluminio() {
 
 return(
 <div id="panelDeAluminio">
+  <h1>INSTALACION PROFESIONAL DE PANEL</h1>
   <HeaderImages />
   <PerfileDeAluminio/><div id="separador"/>
   <ColoresV2/><div id="separador"/>

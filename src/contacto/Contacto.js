@@ -22,7 +22,7 @@ return(
 			<div className="item">
 				<img src={email} width="100px" height="100px" alt="email" />
 				 <h2>Email</h2> 
-				 <span>sofia.jimenez@gruposejiv.com<br/>sergio.jimenez@gruposejiv.com</span>
+				 <span>contacto@gruposejiv.com</span>
 			</div> 
 			<div className="item">
 				<img src={telefono} width="100px" height="100px" alt="telefono" />
@@ -37,7 +37,7 @@ return(
 			<div className="item">
 				<img src={facebook} width="100px" height="100px" alt="visitanos en Facebook" />
 				 <h2>Síguenos en Facebook</h2> 
-				 <span><a href="https://www.facebook.com/GRUPO-SEJIV-115170390228742/" target="_blank" rel="noopener noreferrer">Instaladora De panel</a></span>
+				 <span><a href="https://www.facebook.com/instaladora.depanel" target="_blank" rel="noopener noreferrer">Instaladora De panel</a></span>
 			</div>
 			<div className="item">
 				<img src={linkedin} width="100px" height="100px" alt="linkedin" />

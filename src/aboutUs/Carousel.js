@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import UseWindowSize from '../utils/UseWindowSize.js'
 import ItemsCarousel from 'react-items-carousel';
 import image01 from './ItemsCarousel/IMAGEN1.jpg';
 import image02 from './ItemsCarousel/IMAGEN2.jpg';
@@ -12,17 +13,27 @@ import image09 from './ItemsCarousel/IMAGEN9.jpg';
 import image10 from './ItemsCarousel/IMAGEN10.jpg';
 
 
-export default () => {
+export default (props) => {
   const [activeItemIndex, setActiveItemIndex] = useState(0);
-  const chevronWidth = 40;
+  const chevronWidth = 10;
+  const windowsSize = UseWindowSize();
+  const numberOfCards = (windowsSize.width * (.5)) / 150
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setActiveItemIndex(activeItemIndex => activeItemIndex + 1)
+    }, 1000);
+    return () => clearInterval(interval);
+  }, []); 
+
   return (
-    <div style={{ padding: `0 ${chevronWidth}px` }}>
+    <div style={{ padding: `0 ${chevronWidth}%` }}>
       <ItemsCarousel
         infiniteLoop
         requestToChangeActive={setActiveItemIndex}
         activeItemIndex={activeItemIndex}
-        numberOfCards={2}
-        gutter={20}
+        numberOfCards={numberOfCards}
+        gutter={15}
         leftChevron={<button>{'<'}</button>}
         rightChevron={<button>{'>'}</button>}
         outsideChevron

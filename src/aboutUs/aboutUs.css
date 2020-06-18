@@ -43,6 +43,10 @@
   font-weight: bold;
 }
 
+.font-red {
+  color: red;
+}
+
 .text3d {
   position: relative;
   top: 40%;

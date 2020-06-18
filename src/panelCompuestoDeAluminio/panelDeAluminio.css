@@ -120,13 +120,8 @@ p {
 }
 
 .img-r-article-p {
-    grid-column-start: 6;
-    grid-column-end: 15;
-    /*
-    margin-top: 35%;
-    margin-bottom: 17%;
-    box-sizing: border-box;
-    */
+    grid-column-start: 1;
+    grid-column-end: 14;
     overflow: hidden;
 }
 
@@ -247,7 +242,7 @@ p {
   > h1, > h2, > h3, > h4, > h5, > h6 { margin: 0; }
 }
 
-.Rtable--2cols > .Rtable-cell  { width: 50%; }
+.Rtable--2cols > .Rtable-cell  { width: 100%; }
 
 
 

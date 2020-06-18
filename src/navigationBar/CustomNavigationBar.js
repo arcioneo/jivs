@@ -12,7 +12,7 @@ export default function CustomNavigationBar(props) {
   return(
     <div id="customNavigationBar">
       <Navbar bg="light" variant="light" expand="sm">
-        <Navbar.Brand href="#"><img src={logo} width="40px" alt="" />Grupo JIVS</Navbar.Brand>
+        <Navbar.Brand href="#"><img src={logo} width="60px" alt="" />Grupo SEJIV</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

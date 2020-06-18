@@ -7,7 +7,7 @@ export default function AboutUs() {
 
 return(
 <div id="aboutUs">
-	<div className="header" />
+	<div className="header"><span className="text3d">RECUBRIMIENTOS ARQUITECTONICOS</span></div>
 	<div className="body">
 		Somos una empresa dedicada a <span className="bold-text"><strong>Recubrimientos, acabados Arquitectónicos y diseño exterior</strong></span>, con presencia en el Mercado desde hace mas de 20 años, cubriendo  sus necesidades con los más estrictos estándares y una óptima calidad siendo nuestra especialidad, la instalación integral de Panel de Aluminio Compuesto y su comercialización.
 		<p/>

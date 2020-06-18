@@ -4,5 +4,6 @@
   	left: 10%;
 	width: 80%;
 	height: 100%;
+	z-index: 99;
 }
 

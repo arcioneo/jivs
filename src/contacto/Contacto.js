@@ -39,11 +39,6 @@ return(
 				 <h2>Síguenos en Facebook</h2> 
 				 <span><a href="https://www.facebook.com/instaladora.depanel" target="_blank" rel="noopener noreferrer">Instaladora De panel</a></span>
 			</div>
-			<div className="item">
-				<img src={linkedin} width="100px" height="100px" alt="linkedin" />
-				<h2>Mira mi perfil</h2> 
-				 <span><a href="linkedin" target="_blank" rel="noopener noreferrer">Mi Linkedin</a></span>
-			</div>
 		</div> 
 	</div>
 </div>

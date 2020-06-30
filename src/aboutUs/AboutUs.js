@@ -9,7 +9,7 @@ return(
 <div id="aboutUs">
 	<div className="header"><span className="text3d">RECUBRIMIENTOS ARQUITECTONICOS</span></div>
 	<div className="body">
-		Somos una empresa dedicada a <span className="bold-text"><strong>Recubrimientos, acabados Arquitectónicos y diseño exterior</strong></span>, con presencia en el Mercado desde hace mas de 20 años, cubriendo  sus necesidades con los más estrictos estándares y una óptima calidad siendo nuestra especialidad, la instalación integral de Panel de Aluminio Compuesto y su comercialización, <span className="font-red">también trabajamos plafón y plafón falso, letras de acrílico con y sin iluminación, sin duda Grupo SEJIV su mejor opción.</span>
+		Somos una empresa dedicada a <span className="bold-text"><strong>Recubrimientos, acabados Arquitectónicos y diseño exterior</strong></span>, con presencia en el Mercado desde hace mas de 20 años, cubriendo  sus necesidades con los más estrictos estándares y una óptima calidad siendo nuestra especialidad, la instalación integral de Panel de Aluminio Compuesto y su comercialización, también trabajamos plafón y plafón falso, letras de acrílico con y sin iluminación, sin duda Grupo SEJIV su mejor opción.
 		<p/>
 		Los productos que comercializamos, son de grandes marcas reconocidas en el ámbito arquitectónico con un amplio mercado y gran experiencia, teniendo participación en los proyectos más importantes de México y Latinoamérica.
 		<p/>

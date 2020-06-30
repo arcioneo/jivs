@@ -1,0 +1,30 @@
+#proyectos {
+	position: relative;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    font-family: Poppins;
+}
+
+.titulo {
+  position: relative;
+  padding: 25px 0;
+  top: 5%;
+  left: 5%;
+  height: 10%;
+  width: 90%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 120%;
+  color: white;
+}
+
+.carousel {
+  position: relative;
+  padding: 25px 0;
+  top: 5%;
+  left:5%;
+  height: 80%;
+  width: 90%;
+}

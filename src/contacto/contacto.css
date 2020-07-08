@@ -37,6 +37,7 @@
 
 .listContainerA {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .item {

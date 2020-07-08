@@ -4,6 +4,7 @@ import AboutUs from '../aboutUs/AboutUs.js';
 import PanelDeAluminio from '../panelCompuestoDeAluminio/PanelDeAluminio.js';
 import Contacto from '../contacto/Contacto.js';
 import Proyectos from '../proyectos/Proyectos.js';
+import Galeria from '../galeria/Galeria.js';
 import './main.css'
 
 export default function Main() {
@@ -19,6 +20,9 @@ export default function Main() {
 		      break;
 		    case 'proyectos':
 		      setPrincipal(<Proyectos/>);
+		      break;
+			case 'galeria':
+		      setPrincipal(<Galeria/>);
 		      break;
 		    case 'contacto':
 		      setPrincipal(<Contacto/>);

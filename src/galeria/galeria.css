@@ -1,0 +1,112 @@
+#galeria {
+	position: relative;
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    font-family: Poppins;
+    min-height: 100vh;
+    display: grid;
+    place-content: start center;
+    background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(#aaa), to(#fff));
+    background: linear-gradient(#fff, #aaa, #fff);
+}
+
+article {
+  position: absolute;
+  top: 20vh;
+  left: 30vw;
+  width: 40vw;
+  color: #333;
+}
+article h1,
+article p {
+  margin: 10px;
+}
+article h1 {
+  font-size: 1.2rem;
+}
+article p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+.g {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  grid-auto-flow: column;
+  grid-auto-rows: 10vh;
+  place-content: start center;
+  z-index: 1;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  position: relative;
+  top: 5vh;
+}
+.g:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(hsla(0, 0%, 100%, 0.5)), to(transparent));
+  background: linear-gradient(transparent, hsla(0, 0%, 100%, 0.5), transparent);
+}
+
+.g span {
+  font: 0.8em monospace;
+  position: static;
+  display: block;
+  width: 5ch;
+  height: 5ch;
+  display: grid;
+  place-content: center;
+  background: hsla(0, 0%, 100%, 0.5);
+  color: #333;
+  text-decoration: none;
+  border-bottom: thin solid red;
+  box-sizing: border-box;
+}
+.g span:hover {
+  background: hsla(0, 0%, 0%, 0.5);
+  color: #eee;
+  border-bottom: 0 none;
+}
+.g span img {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 85vh;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  -webkit-clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%);
+          clip-path: polygon(50% 0, 50% 0, 50% 100%, 50% 100%, 50% 0, 50% 0, 50% 100%, 50% 100%);
+  -webkit-transition: -webkit-clip-path 0.3s ease-in;
+  transition: -webkit-clip-path 0.3s ease-in;
+  transition: clip-path 0.3s ease-in;
+  transition: clip-path 0.3s ease-in, -webkit-clip-path 0.3s ease-in;
+}
+.g span:hover img,
+.g span img:hover {
+  -webkit-clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%, 50% 0, 100% 0, 100% 100%, 50% 100%);
+          clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%, 50% 0, 100% 0, 100% 100%, 50% 100%);
+}
+article {
+  -webkit-transition: -webkit-filter 0.5s;
+  transition: -webkit-filter 0.5s;
+  transition: filter 0.5s;
+  transition: filter 0.5s, -webkit-filter 0.5s;
+  position: absolute;
+  top: 35%;
+  left:25%; 
+  height: 35%;
+  width: 50%;
+  font-weight: normal;
+  text-align: center;
+  z-index: 100;
+}
+.g:hover + article {
+  -webkit-filter: blur(3px);
+          filter: blur(3px);
+}

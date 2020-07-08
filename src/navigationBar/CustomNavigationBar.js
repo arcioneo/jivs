@@ -23,6 +23,7 @@ export default function CustomNavigationBar(props) {
             <NavDropdown title="Productos y Servicios" id="basic-nav-dropdown">
               <NavDropdown.Item onClick={() => menuClicked('panelCompuesto')}>Panel compuesto de aluminio</NavDropdown.Item>
               <NavDropdown.Item onClick={() => menuClicked('proyectos')}>Proyectos</NavDropdown.Item>
+              <NavDropdown.Item onClick={() => menuClicked('galeria')}>Galería</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link onClick={() => menuClicked('contacto')}>Contacto</Nav.Link>
           </Nav>
